@@ -13,7 +13,7 @@ const props = defineProps<{
 const bookModel = useBookModel()
 
 const text = computed((): string =>
-  bookModel.isBookInBookshelf(props.book.id) ? 'В библиотеку' : 'В библиотеке'
+  bookModel.isBookInBookshelf(props.book.id) ? 'В библиотеке' : 'В библиотеку'
 )
 
 const color = computed((): string => (bookModel.isBookInBookshelf(props.book.id) ? 'green' : ''))
