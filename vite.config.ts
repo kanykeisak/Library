@@ -30,6 +30,7 @@ export default defineConfig({
       ]
     })
   ],
+  base: "/Library",
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))

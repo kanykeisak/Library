@@ -1,21 +1,25 @@
 {
-  "name": "polka",
+  "name": "library",
+  "homepage": "https://kanykeisak.github.io/Library/",
   "version": "0.0.0",
   "private": true,
   "scripts": {
     "dev": "vite",
     "build": "run-p build-only",
     "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "test:unit": "vitest",
     "build-only": "vite build",
     "type-check": "vue-tsc --noEmit -p tsconfig.vitest.json --composite false",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
     "format": "prettier --write src/"
-  }  ,
+  },
   "dependencies": {
     "@googleapis/books": "^1.0.0",
     "@unhead/vue": "^1.8.4",
     "axios": "^1.5.1",
+    "gh-pages": "^6.3.0",
     "pinia": "^2.1.6",
     "vue": "^3.3.4",
     "vue-router": "^4.2.4",
