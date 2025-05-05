@@ -1,1 +1,0 @@
-import{u as t}from"./vue.f36acd1f-41263180.js";import{d as o,c as a,o as n,k as s,t as r,e as u}from"./index-3dbe8a5a.js";const _=o({__name:"NotFound",setup(c){const e=a(()=>"404 - page not found");return t({title:e.value}),(p,l)=>(n(),s("h2",null,r(u(e)),1))}});export{_ as default};
