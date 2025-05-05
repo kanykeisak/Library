@@ -12,7 +12,7 @@
   </v-footer>
 </template>
 
-<script setup lang="ts">
+<script setup  lang="ts">
 const initYear = ref(2023)
 const currentYear = ref(new Date().getFullYear())
 </script>

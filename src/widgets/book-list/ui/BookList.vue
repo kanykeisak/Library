@@ -7,7 +7,7 @@
 <script setup lang="ts">
 import { Card as BookCard, type IBook } from '@/entities/book'
 
-defineProps<{
+defineProps< {
   books: IBook[]
 }>()
 </script>

@@ -9,7 +9,7 @@ module.exports = {
     '@vue/eslint-config-typescript',
     '@vue/eslint-config-prettier/skip-formatting'
   ],
-  rules: {
+  rules:   {
     'vue/multi-word-component-names': 0
   },
   ignorePatterns: ['auto-imports.d.ts'],

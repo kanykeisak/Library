@@ -21,17 +21,17 @@ const themeModel = useThemeModel()
 
 const items = reactive([
   {
-    title: 'Home',
+    title: 'Поиск',
     to: '/',
     icon: 'home'
   },
   {
-    title: 'Favorites',
+    title: 'Любимое',
     to: '/favorites',
     icon: 'star'
   },
   {
-    title: 'Bookshelf',
+    title: 'Библиетка',
     to: '/bookshelf',
     icon: 'bookshelf'
   }

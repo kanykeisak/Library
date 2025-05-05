@@ -1,3 +1,3 @@
-import BookDetails from './ui/BookDetails.vue'
+import BookDetails  from './ui/BookDetails.vue'
 
 export { BookDetails }

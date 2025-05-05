@@ -10,7 +10,7 @@
       <v-col sm="10" md="8" lg="6" offset-lg="3" offset-md="2" offset-sm="1">
         <v-row>
           <v-col>
-            <h2>{{ book.title }}</h2>
+             <h2>{{ book.title }}</h2>
           </v-col>
         </v-row>
 

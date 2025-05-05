@@ -5,7 +5,7 @@
 
     <v-main>
       <slot />
-    </v-main>
+     </v-main>
 
     <slot name="footer"></slot>
   </v-layout>

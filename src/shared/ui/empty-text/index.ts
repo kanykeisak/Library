@@ -1,3 +1,3 @@
 import EmptyText from './EmptyText.vue'
 
-export { EmptyText }
+export {  EmptyText }

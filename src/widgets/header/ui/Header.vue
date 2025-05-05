@@ -21,7 +21,7 @@ import { useThemeModel } from '@/entities/theme'
 import { Logo } from '@/shared/ui/logo/'
 
 const router = useRouter()
-const themeModel = useThemeModel()
+const themeModel =  useThemeModel()
 
 const goToHome = () => {
   router.push({ path: '/' })

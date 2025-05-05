@@ -1,3 +1,3 @@
-import BackLink from './BackLink.vue'
+import BackLink  from './BackLink.vue'
 
 export { BackLink }
