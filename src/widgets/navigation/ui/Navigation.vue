@@ -26,12 +26,12 @@ const items = reactive([
     icon: 'home'
   },
   {
-    title: 'Любимое',
+    title: 'Избранное',
     to: '/favorites',
     icon: 'star'
   },
   {
-    title: 'Библиетка',
+    title: 'Библиотека',
     to: '/bookshelf',
     icon: 'bookshelf'
   }

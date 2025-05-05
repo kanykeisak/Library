@@ -3,7 +3,7 @@
     v-model="query"
     :items="items"
     :menu-props="{ maxWidth: '100' }"
-    label="Search book"
+    label="Поиск книги"
     variant="outlined"
     no-filter
     @input="handleInputChange"

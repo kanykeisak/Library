@@ -3,9 +3,8 @@
     <v-row justify="center" no-gutters>
       <v-col class="text-center" cols="12">
         <p>
-          © {{ initYear }}
-          <span v-if="currentYear > initYear"> - {{ currentYear }}</span>
-          Polka
+          <span v-if="currentYear > initYear"> {{ currentYear }}</span>
+          Библиотека
         </p>
       </v-col>
     </v-row>

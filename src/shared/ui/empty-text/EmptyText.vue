@@ -1,5 +1,5 @@
 <template>
-  <div :class="[styles.text, 'text-center']">📚 Oops! It's still empty here.</div>
+  <div :class="[styles.text, 'text-center']">📚 Пусто, не добавили книгу.</div>
 </template>
 
 <script  setup lang="ts">
